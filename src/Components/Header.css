@@ -1,0 +1,120 @@
+/* HEADER: nav */
+body{
+    background-color: #000000;
+    
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    font-weight: 800;
+}
+.left{
+margin-left: 100px;
+font-size: 48px;
+color:  rgb(0, 184, 153)
+}
+.left span{
+    color: white;
+}
+.right{
+    display: flex;
+    align-items: center;
+    margin-left: 529px;
+    gap: 50px;
+    color: white;
+}
+.right button{
+    background-color: rgb(0, 184, 153);
+    color: rgba(255, 249, 249, 0.951);
+    font-weight: 600;
+    border: 0;
+    border: 1px solid transparent;
+    font-size: inherit;
+    border-radius: 0.6rem;
+    line-height: inherit;
+    padding: 0.65rem 1.5rem;
+    transition: all 0.3 ease;
+    text-transform: none;
+    overflow: visible;
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+}
+.right button:hover{
+    background: transparent;
+    color: #fff;
+    border-color: #fff;
+    
+}
+
+
+header {
+    position: relative;
+    top: 5rem;
+    overflow: hidden;
+    height: 70vh;
+    margin-bottom: 5rem;
+    
+    
+}
+
+.header__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* first 1fr is for left and another is right */
+    align-items: center;
+    gap: 5rem;    
+    height: 100%;
+    color: white;
+}
+
+.header__left p {
+    margin: 1rem 0 2.4rem;
+    padding-bottom: 2rem;
+    line-height: 2rem;
+    font-weight: 500;
+    /* font-size: 50px; */
+    color: #b8b4b4;
+    font-size: 1.4rem;
+    padding-right: 233px;
+}
+.header__left h1{
+    /* font-size: 70px; */
+    max-width: 650px;
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 4.2rem;
+    padding-left: 44px;
+}
+
+
+
+video {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    
+    
+
+}
+/* FOOTER */
+.container-1{
+    align-items: center;
+    background-color: #1e1e1e;
+    bottom: -90px;
+   
+    display: flex;
+    left: 0;
+    padding: 0 7%;
+    position: absolute;
+    width: 85%;
+    height: 8rem;
+}
+/* .container-1 img{
+    height: auto;
+    max-height: 12rem;
+    padding-right: 4rem;
+    width: 12rem;
+    
+
+} */
