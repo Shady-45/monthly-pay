@@ -1,4 +1,5 @@
 /* HEADER: nav */
+
 body{
     background-color: #000000;
     
@@ -8,14 +9,46 @@ nav{
     flex-direction: row;
     font-size: 25px;
     font-weight: 800;
+    cursor: pointer;
 }
+/* .monthly{
+    color:rgb(0, 184, 153);
+} */
+ .monthly-new{
+   
+   
+    border-radius: 25%;
+    color: black;
+} 
 .left{
-margin-left: 100px;
+margin-left: 50px;
 font-size: 48px;
-color:  rgb(0, 184, 153)
+color:  white; 
 }
-.left span{
-    color: white;
+ .left span{
+    color: black;
+    background-color: rgb(0, 184, 153);
+    
+    font-weight: 700;
+    border: 0;
+  
+    border: 1px solid transparent;
+    font-size: inherit;
+    border-radius: 12px;
+    line-height: inherit;
+    padding: 0.1rem 1rem;
+
+    transition: all 0.3 ease;
+    text-transform: none;
+    overflow: visible;
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+} 
+.header__left{
+    font-size: 29px;
+    margin-left: 110px;
+    margin-top: -29px;
+    width: 111%;
 }
 .right{
     display: flex;
@@ -26,20 +59,41 @@ color:  rgb(0, 184, 153)
 }
 .right button{
     background-color: rgb(0, 184, 153);
-    color: rgba(255, 249, 249, 0.951);
-    font-weight: 600;
+    color: #000000;
+    font-weight: 700;
     border: 0;
     border: 1px solid transparent;
     font-size: inherit;
     border-radius: 0.6rem;
     line-height: inherit;
-    padding: 0.65rem 1.5rem;
+    padding: 0.65rem 1rem;
+
     transition: all 0.3 ease;
     text-transform: none;
     overflow: visible;
     font-family: 'Nunito', sans-serif;
     cursor: pointer;
 }
+/* .right:hover{
+    color: rgb(0, 184, 153);
+} */
+.item-2:hover{
+ color:rgb(0, 184, 153);
+}
+.item-3:hover{
+ color:rgb(0, 184, 153) ;
+}
+.item-4:hover{
+ color:rgb(0, 184, 153) ;
+}
+.item-5:hover{
+ color:rgb(0, 184, 153) ;
+}
+.rbus{
+    max-height: 65px;
+    margin-bottom:-16px;
+}
+
 .right button:hover{
     background: transparent;
     color: #fff;
@@ -50,7 +104,7 @@ color:  rgb(0, 184, 153)
 
 header {
     position: relative;
-    top: 5rem;
+    top: 2rem;
     overflow: hidden;
     height: 70vh;
     margin-bottom: 5rem;
@@ -74,14 +128,18 @@ header {
     font-weight: 500;
     /* font-size: 50px; */
     color: #b8b4b4;
-    font-size: 1.4rem;
+   /*  font-size: 1.4rem; */
     padding-right: 233px;
+    font-size: 28px;
+    margin-left: -114px;
+    margin-top: -28px;
+
 }
 .header__left h1{
     /* font-size: 70px; */
     max-width: 650px;
     color: white;
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-weight: 600;
     line-height: 4.2rem;
     padding-left: 44px;
@@ -102,7 +160,7 @@ video {
     align-items: center;
     background-color: #1e1e1e;
     bottom: -90px;
-   
+   justify-content: center;
     display: flex;
     left: 0;
     padding: 0 7%;
@@ -118,3 +176,45 @@ video {
     
 
 } */
+.para{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 0;
+    line-height: 2.15rem;
+    margin-block-start: 1em;
+    display: block;
+    color: white;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+.store{
+    max-height: 63px;
+    margin: -14px 2px;
+    border-style: none;
+
+    vertical-align: middle;
+
+}
+.store-apple{
+    max-height: 44px;
+    border-style: none;
+    gap: 5px;
+    vertical-align: middle;
+    
+    height: 47px;
+    margin-left: 19px;
+
+
+}
+.paragraph{
+    align-items: center;
+}
+.image{
+    background-color: white;
+    padding-right: 960px;
+}
+.container-new{
+     overflow: scroll;
+}
