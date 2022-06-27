@@ -1,0 +1,83 @@
+.categories {
+    background: black;
+    height: 32rem;
+    margin-top: 83px;
+}
+
+.categories h1 {
+    line-height: 1;
+    margin-bottom: 3rem;
+    color: white;
+    font-size: 50px;
+
+}
+
+.categories__container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.categories__left {
+    margin-right: 4rem;
+    margin-top: 185px;
+}
+
+.categories__left p{
+    margin: 1rem 0 3rem;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.categories__right {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+}
+
+
+.category {
+    background: gray;
+    padding: 2rem;
+    border-radius: 2rem;
+    transition: all 400ms ease;
+}
+
+.category:hover {
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.category:nth-child(2) .category__icon {
+    background-color: #f75842; /* for changing the background color for icon*/
+}
+
+.category:nth-child(3) .category__icon {
+    background-color: #f7c94b;
+}
+
+.category:nth-child(4) .category__icon {
+    background-color: #f7c94b;
+}
+
+.category:nth-child(5) .category__icon {
+    background-color: #00bf8e;
+}
+
+.category:nth-child(6) .category__icon {
+    background-color: #f75842;
+}
+
+.category__icon {
+    background:#6c63ff;
+    padding: 0.7rem;
+    border-radius: 0.9rem;
+}
+
+.category h5 {
+    margin: 2rem 0 1rem;
+}
+
+.category p {
+    font-size: 0.85rem;
+}

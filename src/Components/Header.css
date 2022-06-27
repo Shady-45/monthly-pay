@@ -4,16 +4,20 @@ body{
     background-color: #000000;
     
 }
-nav{
+
+nav
+{
     display: flex;
     flex-direction: row;
     font-size: 25px;
     font-weight: 800;
     cursor: pointer;
+   
 }
 /* .monthly{
     color:rgb(0, 184, 153);
 } */
+
  .monthly-new{
    
    
@@ -147,14 +151,6 @@ header {
 
 
 
-video {
-    width: 100%;
-    display: block;
-    object-fit: cover;
-    
-    
-
-}
 /* FOOTER */
 .container-1{
     align-items: center;
@@ -164,7 +160,7 @@ video {
     display: flex;
     left: 0;
     padding: 0 7%;
-    position: absolute;
+     position: absolute;
     width: 85%;
     height: 8rem;
 }
@@ -211,10 +207,49 @@ video {
 .paragraph{
     align-items: center;
 }
+.container-new{
+    background-color: white;
+}
 .image{
     background-color: white;
     padding-right: 960px;
 }
+.new-container-3{
+    background-color: black;
+}
+.vi-new-1{
+    
+    width: 100%;
+
+}
 .container-new{
-     overflow: scroll;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 170px;
+
+}
+.content-new-2{
+    padding-bottom: -28px;
+    /* margin-top: -99px; */
+    /* margin-right: 400px; */
+    margin-left: -700px;
+    margin-top: 107px;
+}
+.content-new-2 h1{
+    font-size: 59px;
+    font-style: italic;
+}
+.para-new-2 p{
+
+    font-size: 20px;
+    color:#1e1e1e ;
+}
+.p2{
+    padding-right: 58px;
+}
+.p3{
+    padding-left: 41px;
+}
+.p4{
+    padding-right: 47px;
 }
