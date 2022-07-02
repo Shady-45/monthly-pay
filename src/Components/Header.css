@@ -9,7 +9,7 @@ nav
 {
     display: flex;
     flex-direction: row;
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 800;
     cursor: pointer;
    
@@ -25,7 +25,7 @@ nav
     color: black;
 } 
 .left{
-margin-left: 50px;
+margin-left: 56px;
 font-size: 48px;
 color:  white; 
 }
@@ -40,7 +40,7 @@ color:  white;
     font-size: inherit;
     border-radius: 12px;
     line-height: inherit;
-    padding: 0.1rem 1rem;
+    padding: 2.1px 16px;
 
     transition: all 0.3 ease;
     text-transform: none;
@@ -49,17 +49,20 @@ color:  white;
     cursor: pointer;
 } 
 .header__left{
-    font-size: 29px;
-    margin-left: 110px;
-    margin-top: -29px;
+    font-size: 28.8px;
+    margin-left: 102.4px;
+    margin-top: -130px;
     width: 111%;
 }
 .right{
     display: flex;
     align-items: center;
-    margin-left: 233px;
-    gap: 50px;
+    margin-left: 360px;
+    gap: 56px;
     color: white;
+}
+.play{
+    margin-top: -32px;
 }
 .right button{
     background-color: rgb(0, 184, 153);
@@ -68,9 +71,9 @@ color:  white;
     border: 0;
     border: 1px solid transparent;
     font-size: inherit;
-    border-radius: 0.6rem;
+    border-radius: 15.6px;
     line-height: inherit;
-    padding: 0.65rem 1rem;
+    padding: 14.65px 10px;
 
     transition: all 0.3 ease;
     text-transform: none;
@@ -94,7 +97,7 @@ color:  white;
  color:rgb(0, 184, 153) ;
 }
 .rbus{
-    max-height: 65px;
+    max-height: 73.6px;
     margin-bottom:-16px;
 }
 
@@ -108,10 +111,10 @@ color:  white;
 
 header {
     position: relative;
-    top: 2rem;
+    top: 2px;
     overflow: hidden;
-    height: 70vh;
-    margin-bottom: 5rem;
+    height: 100vh;
+    margin-bottom: 5px;
     
     
 }
@@ -120,33 +123,31 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr; /* first 1fr is for left and another is right */
     align-items: center;
-    gap: 5rem;    
+    gap: 5px;    
     height: 100%;
     color: white;
 }
 
 .header__left p {
-    margin: 1rem 0 2.4rem;
-    padding-bottom: 2rem;
-    line-height: 2rem;
+    margin: 1px 0 2.4px;
+    padding-bottom: 2px;
+    line-height: 2px;
     font-weight: 500;
-    /* font-size: 50px; */
     color: #b8b4b4;
-   /*  font-size: 1.4rem; */
-    padding-right: 233px;
-    font-size: 28px;
-    margin-left: -114px;
+    padding-right: 165px;
+    font-size: 37.6px;
+    margin-left: -115.2px;
     margin-top: -28px;
 
 }
 .header__left h1{
-    /* font-size: 70px; */
-    max-width: 650px;
+    font-size: 70px; 
+    max-width: 725.6px;
     color: white;
-    font-size: 4rem;
+    
     font-weight: 600;
-    line-height: 4.2rem;
-    padding-left: 44px;
+    line-height: 74.2px;
+    padding-left: 44.2px;
 }
 
 
@@ -155,28 +156,28 @@ header {
 .container-1{
     align-items: center;
     background-color: #1e1e1e;
-    bottom: -90px;
+    bottom: -89.6px;
    justify-content: center;
     display: flex;
     left: 0;
     padding: 0 7%;
      position: absolute;
     width: 85%;
-    height: 8rem;
+    height: 8px;
 }
 /* .container-1 img{
     height: auto;
-    max-height: 12rem;
-    padding-right: 4rem;
-    width: 12rem;
+    max-height: 12px;
+    padding-right: 4px;
+    width: 12px;
     
 
 } */
 .para{
-    font-size: 1.5rem;
+    font-size: 1.5px;
     font-weight: bold;
     margin-top: 0;
-    line-height: 2.15rem;
+    line-height: 2.15px;
     margin-block-start: 1em;
     display: block;
     color: white;
@@ -186,7 +187,7 @@ header {
 
 }
 .store{
-    max-height: 63px;
+    max-height: 168px;
     margin: -14px 2px;
     border-style: none;
 
@@ -194,12 +195,12 @@ header {
 
 }
 .store-apple{
-    max-height: 44px;
+    height: 120px;
     border-style: none;
     gap: 5px;
     vertical-align: middle;
     
-    height: 47px;
+    
     margin-left: 19px;
 
 
@@ -207,16 +208,13 @@ header {
 .paragraph{
     align-items: center;
 }
-.container-new{
-    background-color: white;
-}
-.image{
-    background-color: white;
-    padding-right: 960px;
-}
-.new-container-3{
+
+ .image{
     background-color: black;
-}
+   /*  padding-right: 960px; */
+    
+} 
+
 .vi-new-1{
     
     width: 100%;
@@ -225,15 +223,22 @@ header {
 .container-new{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-bottom: 170px;
+    padding-bottom: 50px;
+    background-color: black;
+  /*   margin-left: 1330px; */
 
+}
+.image img{
+    height: 400px;
+    margin-top: 120px;
 }
 .content-new-2{
     padding-bottom: -28px;
     /* margin-top: -99px; */
     /* margin-right: 400px; */
-    margin-left: -700px;
-    margin-top: 107px;
+    margin-left: -20px;
+    margin-top: 107.2px;
+    color: white;
 }
 .content-new-2 h1{
     font-size: 59px;
@@ -242,7 +247,7 @@ header {
 .para-new-2 p{
 
     font-size: 20px;
-    color:#1e1e1e ;
+    color:white ;
 }
 .p2{
     padding-right: 58px;

@@ -1,6 +1,6 @@
 .categories {
-    background: black;
-    height: 32rem;
+    background: #00b899;
+    height: 31.5rem;
     margin-top: 83px;
 }
 
@@ -33,12 +33,19 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.2rem;
+    margin-top: -24px;
 }
 
 
 .category {
-    background: gray;
-    padding: 2rem;
+    background: black;
+    padding: 0.7rem;
+    border-radius: 2rem;
+    transition: all 400ms ease;
+}
+.category-1 {
+    background: black;
+    padding: 0.5rem;
     border-radius: 2rem;
     transition: all 400ms ease;
 }
@@ -80,4 +87,9 @@
 
 .category p {
     font-size: 0.85rem;
+}
+
+.category img{
+    height: 225px;
+    padding-top: 16px;
 }

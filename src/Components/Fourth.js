@@ -4,15 +4,15 @@ import "./Fourth.css";
 const Fourth = () => {
   return (
     <div>
-      <section class="categories">
+      <section class="categories" data-aos="zoom-in">
         <div class="container categories__container">
           <div class="categories__left">
-            <h1>Monthly Pay</h1>
-            <p>
+            <h1>Gen Z</h1>
+            {/*  <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
               cupiditate perspiciatis illo, sed dolorem facere possimus ipsum
               fugit error fuga.
-            </p>
+            </p> */}
           </div>
           <div class="categories__right">
             <article class="category">
@@ -24,12 +24,12 @@ const Fourth = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Incidunt, sunt.
               </p> */}
-              <img src="/pano-1.svg" alt="" />
+              <img src="/pano-4.svg" data-aos="fade-left" alt="" />
             </article>
 
             <article class="category">
               {/* <span class="category__icon" /> */}
-              <img src="/pano-2.svg" alt="" />
+              <img src="/id-card.png" data-aos="fade-left" alt="" />
             </article>
 
             <article class="category">
@@ -41,7 +41,7 @@ const Fourth = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Incidunt, sunt.
               </p> */}
-              <img src="/pano-3.svg" alt="" />
+              <img src="/pano-3.svg" data-aos="fade-left" alt="" />
             </article>
 
             <article class="category">
@@ -53,7 +53,8 @@ const Fourth = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Incidunt, sunt.
               </p> */}
-              <img src="/pano-4.svg" alt="" />
+              {/* <img src="/discount.png" alt="" /> */}
+              <img src="/discount.png" data-aos="fade-right" alt=""></img>
             </article>
 
             <article class="category">
@@ -65,7 +66,7 @@ const Fourth = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Incidunt, sunt.
               </p> */}
-              <img src="/pano-5.svg" alt="" />
+              <img src="/online-groceries.png" data-aos="fade-right" alt="" />
             </article>
 
             <article class="category">
@@ -77,7 +78,11 @@ const Fourth = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Incidunt, sunt.
               </p> */}
-              <img src="/pano-6.svg" alt="" />
+              <img
+                /* style={{ height: "260px" }} */ src="/gift-card.png"
+                alt=""
+                data-aos="fade-right"
+              />
             </article>
           </div>
         </div>
