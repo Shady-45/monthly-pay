@@ -1,5 +1,6 @@
 import React from "react";
 import AOS from "aos";
+import "bootstrap/dist/css/bootstrap.min.css";
 import { useEffect } from "react";
 
 import "aos/dist/aos.css";
@@ -14,7 +15,7 @@ const Header = () => {
       <nav>
         <div className="left">
           <p>
-            <>Gen</> <span className="monthly-new">Z</span>
+            <>NXT</> <span className="monthly-new">ZENN</span>
             {/* <img className="rbus" src="/rbus.png" alt="" /> */}
           </p>
         </div>
@@ -32,8 +33,7 @@ const Header = () => {
           <div class="header__left">
             <h1>
               India's first Neo bank for{" "}
-              <span style={{ color: "rgb(0, 184, 153)" }}>Monthly</span>{" "}
-              Payments{" "}
+              <span style={{ color: "rgb(0, 184, 153)" }}>Gen Z</span> Payments{" "}
             </h1>
             <p>(Savings from Spendings)</p>
           </div>
